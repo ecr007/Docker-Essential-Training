@@ -79,4 +79,23 @@ Types of containers runtimes
 - runtime-spec does not dicate how to do these things 
 - **runc** from docker is de facto industry standard runtime.
 
+## The Docker Engine
+
+Container Engine make managing containers easy. Including entire domain specific languages for configuring containers before they start. 
+
+**Docker Engine**
+
+- Most popular container engine.
+- Come with the docker command line tools.
+- Also comes with a REST-API managing containers and a DSL for creating container images called **Dockerfile**
+- Use a **Containerd** as its runtime by default. 
+
+## Where are Docker's configuration files?
+
+- /var/lib/docker/ : containers, volumes, and metadata used by docker client and runtime.
+- /var/lib/docker/overlay/ : container volumes stora data from containers while they're running.
+- /var/run/docker.sock : the pipe between the Docker Client and Docker Engine. Unix Socket live there. 
+- /etc/docker/deamon.json : Docker Engine Configuration (Might not exist at first) , HTTP proxies and runtime configuration. 
+
+
 
