@@ -44,6 +44,8 @@ Docker uses images and containers to allow apps to run anywhere consistently.
 
 Container runtimes create, manage and delete containers.
 
+Namespaces defines what resources containers can access. Control Group define how much of those resources containers can consume.
+
 **Container runtimes automate all these with one command ```docker run```**
 
 In the host:
