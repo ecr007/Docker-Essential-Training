@@ -4,7 +4,7 @@ Docker uses images and containers to allow apps to run anywhere consistently.
 
 ## Previous Solutions
 
-- Configuration Magnament Tools (Chef, Puppet and Ansible) these required knowledge aboud hardware and operating systems.
+- Configuration Management Tools (Chef, Puppet and Ansible) these required knowledge aboud hardware and operating systems.
 
 - Virtual machine as code (Vagrant) heavy, slow-ish, requires inconvenient configuration.
 
