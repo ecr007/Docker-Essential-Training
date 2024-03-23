@@ -1,4 +1,4 @@
-# Docker Expained
+# Docker Explained
 
 Docker uses images and containers to allow apps to run anywhere consistently.
 
